@@ -67,7 +67,7 @@ hr{
   width:80%;
   display:flex;
   justify-content:center;
-  margin:0 auto;
+  margin:0 auto 20px auto;
 }
 .project-tile img{
   height:200px;
