@@ -2,7 +2,7 @@
   box-sizing:border-box;
   font-family:sans-serif;
   margin-left:0;
-  margin-right:0;
+
 }
 #welcome-section{
   display:flex;
@@ -61,10 +61,13 @@ h2{
   text-align:center;
 }
 hr{
+  
   color:#201e1e;
   border:2px solid black;
   width:80%;
-  margin-bottom:25px;
+  display:flex;
+  justify-content:center;
+  margin:0 auto;
 }
 .project-tile img{
   height:200px;
@@ -108,4 +111,16 @@ hr{
   font-size:15px;
   text-align:center;
   padding-bottom:10px;
+}
+#profile-link{
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size:50px;
+}
+@media(prefers-reduced-motion:no-preference){
+  *{
+    scroll-behavior:smooth;
+  }
 }
